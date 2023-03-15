@@ -215,13 +215,13 @@ class HomePage extends StatelessWidget {
                 ),
                 const PodcastWidget(
                   img: 'assets/images/image.png',
-                  color: Colors.deepOrangeAccent,
                   text: 'UI Narrative',
                   text2: 'Podtail',
                   icon: Icon(
                     Icons.pause,
                     color: Colors.white,
                   ),
+                  color: Colors.deepOrangeAccent
                 ),
                 const SizedBox(
                   height: 15,

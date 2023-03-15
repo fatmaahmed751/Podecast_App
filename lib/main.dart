@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:podcast_app/home_page.dart';
+import 'package:podcast_app/podcast_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:HomePage(),
+      home:PodcastScreen(),
     );
   }
 }
